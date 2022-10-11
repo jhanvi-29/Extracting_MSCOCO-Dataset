@@ -1,4 +1,4 @@
-# Extracting MS COCO Dataset
+# Extracting MS-COCO Dataset
 MS COCO (Microsoft Common Objects in Context) is a large-scale image dataset containing 328,000 images of everyday objects and humans. The dataset contains annotations you can use to train machine learning models to recognize, label, and describe objects. 
 
 This is code to extract the dataset w.r.t class like person,vehicle,cat etc. from the original dataset and create the JSON file respectively.
