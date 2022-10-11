@@ -8,6 +8,9 @@ Code.py provides the annotations and image details in form of json file. Give th
 jsonfile : person_keypoints_val2017.json
 num_keypoints : 6 
 Here i am considering person as a class and considering all the annotations that have more than 6 keypoints as my data.
-
+And taking dataset of validation2017 
 
 Images.py provides all the corresponding images from dataset folder that have num_keypoints > 6 
+
+
+P.S: Kindly follow same procedure for train dataset
