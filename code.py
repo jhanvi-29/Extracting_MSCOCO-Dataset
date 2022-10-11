@@ -187,7 +187,7 @@ def detailsofImage(data,imagedata_df):
     json_object = json.dumps(dictionary, indent = 4,cls=NumpyEncoder)
   
     # Writing to sample.json
-    with open("expFINAL.json", "w") as outfile:
+    with open("exportFINAL.json", "w") as outfile:
         outfile.write(json_object)
         
     return dictionary
